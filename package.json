@@ -1,0 +1,15 @@
+{
+  "name": "forward-proxy",
+  "version": "1.0.0",
+  "description": "Minimal dynamic forwarding proxy: sends each request to the target URL given in the request",
+  "main": "src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
